@@ -598,19 +598,14 @@ Hola *${pushname}*
 ‣ Número de grupos: *${_registered.length}*
 ‣ Número de chats: *${totalchat.length}*
 ‣ Numero del Dueño wa.me/17057710819 
-‣ Lindo grupo unete: https://chat.whatsapp.com/JTEBz9fEzYGACXxU4Ta8eP
 
 ┏━━━━━━━━━━━━━━━━━━━━
-┃───〘 ♞☞  𝕊𝓐тคŇ  🐲🏆 〙────
+┃───〘 ♞☞  𝕊𝓐тคŇ  🐲🏆 〙───
 ┃━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Simi (Teks)*
-┃ _Simsimi Chat_
 ┠⊷️ *${prefix}Info*
 ┃ _Información del bot_
 ┠⊷️ *${prefix}Owner*
 ┃ _Dueño del bot_
-┠⊷️ *${prefix}Donasi*
-┃ _Información de donasión_
 ┠⊷️ *${prefix}Ping*
 ┃ _Velocidad_
 ┗━━━━━━━━━━━━━━━━━━━━
@@ -654,34 +649,12 @@ Hola *${pushname}*
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 FUN 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Alay (Texto)*
-┃ _Font Alay_
-┠⊷️ *${prefix}Alay2 (Texto)*
-┃ _Font Alay_
 ┠⊷️ *${prefix}Reverse (Texto)*
 ┃ _Escribir al reves_
-┠⊷️ *${prefix}Hilih (Texto)*
-┃ _Cambiar vocales por la i_
-┠⊷️ *${prefix}Namae (Texto)*
-┃ _Nombre ninpushnameu_
-┠⊷️ *${prefix}Pantun*
-┃ _Poema al azar_
-┠⊷️ *${prefix}Bucin*
-┃ _Expreción al azar_
-┠⊷️ *${prefix}Bijak*
-┃ _Palabras de motivasión_
-┠⊷️ *${prefix}Chatprank (Texto1/Texto2)*
-┃ _Juntar palabras o fraces_
 ┠⊷️ *${prefix}Itsme*
 ┃ _Tu perfil_
-┠⊷️ *${prefix}Fml*
-┃ _Historias de vida_
-┠⊷️ *${prefix}Asupan*
-┃ _Cronologia_
 ┠⊷️ *${prefix}Tagme*
 ┃ _Mencionarte_
-┠⊷️ *${prefix}Fitnah (Menciona a la persona|texto1|texto2)*
-┃ _Mensaje falso de una persona_
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 MEDIA 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
@@ -711,30 +684,9 @@ Hola *${pushname}*
 ┠⊷️ *${prefix}Neko*
 ┃ _Imagen aleatoria de neko_
 ┗━━━━━━━━━━━━━━━━━━━━
-*〘 GAME 〙*
+*〘 Porcentaje 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Tebakgambar*
-┃ _Adivinanza de imagen_
-┠⊷️ *${prefix}Caklontong*
-┃ _Quiz aleatorio_
-┠⊷️ *${prefix}Seberapagay (Nombre)*
-┃ _Porcentaje de gay_
-┠⊷️ *${prefix}Seberapabucin (Nombre)*
-┃ _Porcentaje de bucin_
-┗━━━━━━━━━━━━━━━━━━━━
-*〘 TOD 〙*
-┏━━━━━━━━━━━━━━━━━━━━
-┠⊷ *${prefix}Truth*
-┠⊷ *${prefix}Dare*
-┗━━━━━━━━━━━━━━━━━━━━
-*〘 KERANG AJAIB 〙*
-┏━━━━━━━━━━━━━━━━━━━━
-┠⊷ *${prefix}Apakah (Texto)*
-┠⊷ *${prefix}Bisakah (Texto)*
-┠⊷ *${prefix}Kapankah (Texto)*
 ┠⊷ *${prefix}Rate (Texto)*
-┠⊷ *${prefix}Gantengcek (Texto)*
-┠⊷ *${prefix}Cantikcek (Texto)*
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 TOOLS 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
@@ -744,32 +696,12 @@ Hola *${pushname}*
 ┃ _Canciones_
 ┠⊷️ *${prefix}Tts (Texto)*
 ┃ _Texto a sonido_
-┠⊷️ *${prefix}Igstalk (username)*
-┃ _Perfil de ig_
 ┠⊷️ *${prefix}Timer (Hora)*
 ┠⊷️ *${prefix}Wame*
 ┃ _Link de wa.me_
-┠⊷️ *${prefix}Nulis (Texto)*
-┃ _Texto en cuaderno_
 ┠⊷️ *${prefix}Ocr*
 ┃ _Texto en imagen_
 ┠⊷️ *${prefix}Wait*
-┗━━━━━━━━━━━━━━━━━━━━
-*〘 TEXT0 〙*
-┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Tahta (Texto)*
-┃Ex : ${prefix}Tahta ♞☞  𝕊𝓐тคŇ  🐲🏆_
-┗━━━━━━━━━━━━━━━━━━━━
-*〘 TEXTO2 〙*
-┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Ephoto list*
-┃ _Lista de ephoto_
-┠⊷️ *${prefix}Ephoto (code + Texto)*
-┃Ex : ${prefix}Ephoto 25 ♞☞  𝕊𝓐тคŇ  🐲🏆_
-┠⊷️ *${prefix}Textpro list*
-┃   Lista de textpro
-┠⊷️ *${prefix}Textpro (code + Texto)*
-┃Ex : ${prefix}Textpro 55 ♞☞  𝕊𝓐тคŇ  🐲🏆_
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 IMAGENES 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
@@ -777,33 +709,15 @@ Hola *${pushname}*
 ┃ _Foto aleatoria de un hombre_
 ┠⊷️ *${prefix}Cecan*
 ┃ _Foto aleatoria de una mujer_
-┠⊷️ *${prefix}Meme*
-┃ _Meme aleatorio_
-┠⊷️ *${prefix}Twit*
-┃ _Twit aleatorio_
-┠⊷️ *${prefix}Quotes*
-┃ _Imagen de quotes_
 ┠⊷️ *${prefix}Wp*
 ┃ _Imagen aleatoria_
-┠⊷️ *${prefix}Cyberpunk*
-┃ _Imagen cyberpunk aleatoria_
 ┠⊷️ *${prefix}Img (texto)*
 ┃ _Imagen_
 ┠⊷️ *${prefix}Google (Texto)*
 ┃ _Buscar cosas en google_
 ┗━━━━━━━━━━━━━━━━━━━━
-*〘 EDUCACIÓN 〙*
+*〘 Codigos 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Brainly (Pregunta)*
-┃ _Buscar cosas_
-┠⊷️ *${prefix}Wiki (Pregunta)*
-┃ _Buscar cosas_
-┠⊷️ *${prefix}Kbbi (Pregunta)*
-┃ _Diccionario_
-┠⊷️ *${prefix}Tl (Texto/code)*
-┃ _Traducir_
-┠⊷️ *${prefix}Fakta*
-┃ _Frase_
 ┠⊷️ *${prefix}Kodebahasa*
 ┃ _Codigo de idioma_
 ┠⊷️ *${prefix}Kodenegara*
@@ -813,40 +727,10 @@ Hola *${pushname}*
 ┏━━━━━━━━━━━━━━━━━━━━
 ┠⊷️ *${prefix}Lirik (Nombre)*
 ┃ _Letra de canciones_
-┠⊷️ *${prefix}Chord (Nombre)*
-┃ _Acordes de canciones_
-┠⊷️ *${prefix}Jadwaltvnow*
-┃ _Horario de tv_
 ┠⊷️ *${prefix}Map (Area)*
 ┃ _Un mapa_
-┠⊷️ *${prefix}Trendtwit*
-┃ _Tendencias de twiter_
-┠⊷️ *${prefix}Beritahoax*
-┃ _Noticias falsas_
 ┠⊷️ *${prefix}Gplaystore*
 ┃ _Busqueda en playstore_
-┗━━━━━━━━━━━━━━━━━━━━
-*〘 HORÓSCOPO 〙*
-┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Arti (Nombre)*
-┃ _Significado de tu nombre_
-┠⊷️ *${prefix}Couple (Nombre & Nombre)*
-┃ _Coincidencias de nombre_
-┠⊷️ *${prefix}Jadian (Escribir fecha)*
-┃ _Caracteristicas de usuario_
-┠⊷️ *${prefix}Weton (Escribir fecha)*
-┃ _Información de fecha_
-┠⊷️ *${prefix}Zodiak (Texto)*
-┃ _Signo zodiaco_
-┠⊷️ *${prefix}Artimimpi (Texto)*
-┃ _Significado de tus sueños_
-┗━━━━━━━━━━━━━━━━━━━━
-*〘 TIEMPO 〙*
-┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Cuaca (Área)*
-┃ _Información meteorológica_
-┠⊷️ *${prefix}Infogempa*
-┃ _Información de terremotos recientes_
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 DESCARGAS 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
