@@ -1,5 +1,5 @@
 {
-  "name": "termux-wabot",
+  "name": "Bot loonita",
   "version": "0.0.2",
   "description": "No comment",
   "main": "index.js",
@@ -11,13 +11,13 @@
     "start": "node index.js"
   },
   "keywords": [
-    "termux",
-    "whatsapp",
+    "Bot",
+    "Loonita",
     "bot",
-    "whatsapp",
+    "Loonita",
     "bot"
   ],
-  "author": "MhankBarBar",
+  "author": "𝐋𝐨𝐨𝐧𝐢𝐭𝐚",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "^3.4.1",
@@ -43,10 +43,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mhankbarbar/termux-wabot.git"
+    "url": "git+https://github.com/TxC-Toxic/Loonita"
   },
   "bugs": {
     "url": "https://github.com/mhankbarbar/termux-wabot/issues"
   },
-  "homepage": "https://github.com/mhankbarbar/termux-wabot#readme"
+  "homepage": "https://github.com/TxC-Toxic/Loonita"
 }

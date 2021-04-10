@@ -101,9 +101,9 @@ lolKey = up.LolHumanKey
 //--Kontak
 const vcard = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n'
-+ 'FN:-·=»‡«=·- 𝕤𝔸Ｔ𝐚Ⓝ -·=»‡«=·-\n' // Nama
-+ 'ORG:♞☞  𝕊𝓐тคŇ  🐲🏆;\n' // Nama bot
-+ 'TEL;type=CELL;type=VOICE;waid=17057710819:+1 (705) 771-0819\n' // Nomor bot
++ 'FN:-· 𝐋𝐨𝐨𝐧𝐢𝐭𝐚\n' // Nama
++ 'ORG:𝐁𝐨𝐭 𝐋𝐨𝐨𝐧𝐢𝐭𝐚;\n' // Nama bot
++ 'TEL;type=CELL;type=VOICE;waid=17694447624:+1 (769) 444-7624\n' // Nomor bot
 + 'END:VCARD' 
 
 
@@ -410,7 +410,7 @@ const isQuotedSticker = type === 'extendedTextMessage' && content.includes('stic
 
 //---Metadata stiker
 			function addMetadata(packname, author) {	
-				if (!packname) packname = '♞☞  𝕊𝓐тคŇ  🐲🏆 Admin'; if (!author) author = 'Bot-Satan';	
+				if (!packname) packname = '𝐁𝐨𝐭 𝐋𝐨𝐨𝐧𝐢𝐭𝐚'; if (!author) author = '𝐁𝐨𝐭 𝐋𝐨𝐨𝐧𝐢𝐭𝐚';	
 				author = author.replace(/[^a-zA-Z0-9]/g, '');	
 				let name = `${author}_${packname}`
 				if (fs.existsSync(`./src/stickers/${name}.exif`)) return `./src/stickers/${name}.exif`
@@ -545,7 +545,7 @@ const kapankah = ['Hari Lagi',
 
 
 //--Auto respon
-if(budy.match('Satan')){
+if(budy.match('Loona')){
 result = fs.readFileSync(`./temp/stick/emm.webp`)
   Lxa.sendMessage(from, result, sticker, {
 quoted: mek
@@ -585,34 +585,31 @@ case '?':
   if (!isRegister) return reply(mess.only.daftarB)
   uptime = process.uptime()
   const Menu = {
-text: `♞☞  𝕊𝓐тคŇ  🐲🏆
+text: `𝐁𝐨𝐭 𝐋𝐨𝐨𝐧𝐢𝐭𝐚
 
 Hola *${pushname}* 
 
 〘 *BOT* 〙
 ‣ Prefijo:「 ${prefix} 」
-‣ Yo soy: ♞☞  𝕊𝓐тคŇ  🐲🏆
+‣ Yo soy: 𝐁𝐨𝐭 𝐋𝐨𝐨𝐧𝐢𝐭𝐚
 ‣ Tiempo encencido: *${kyun(uptime)}*
 ‣ Modo: *ON*
 ‣ Grupo:  *${groupName}*
-‣ Número de grupos: *${_registered.length}*
-‣ Número de chats: *${totalchat.length}*
-‣ Numero del Dueño wa.me/17057710819 
+‣ Numero del Dueño wa.me/17604447624
 
 ┏━━━━━━━━━━━━━━━━━━━━
-┃───〘 ♞☞  𝕊𝓐тคŇ  🐲🏆 〙───
+┃───〘 𝐁𝐨𝐭 𝐋𝐨𝐨𝐧𝐢𝐭𝐚 〙───
 ┃━━━━━━━━━━━━━━━━━━━━
 ┠⊷️ *${prefix}Info*
 ┃ _Información del bot_
 ┠⊷️ *${prefix}Owner*
 ┃ _Dueño del bot_
-┠⊷️ *${prefix}Ping*
-┃ _Velocidad_
+┃
 ┗━━━━━━━━━━━━━━━━━━━━
 ┏━━━━━━━━━━━━━━━━━━━━
 ┃─────〘  *List menu* 〙─────
 ┗━━━━━━━━━━━━━━━━━━━━
-*〘 GRUP 〙*
+*〘 GRUPO 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
 ┠⊷️ *${prefix}Listadmin*
 ┃ _Lista de los admin_
@@ -630,27 +627,16 @@ Hola *${pushname}*
 ┃ _Establecer nombre del grupo_
 ┠⊷️ *${prefix}Setdesk*
 ┃ _Establecer descripción del grupo_
-┠⊷️ *${prefix}Add*
-┃ _Añadir miembro_
-┠⊷️ *${prefix}Kick*
-┃ _Eliminar miembro_
 ┠⊷️ *${prefix}Tagall*
 ┃ _Mencionar a todos_
 ┠⊷️ *${prefix}Linkgc*
 ┃ _Link del grupo_
-┠⊷️ *${prefix}Leave*
-┃ _Eliminar bot_
-┠⊷️ *${prefix}Notif*
-┃ _Notificación a todos_
-┠⊷️ *${prefix}Welcome*
 ┃ _On/off Bienvenida_
 ┠⊷️ *${prefix}Delete*
 ┃ _Eliminar mensaje del bot_
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 FUN 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Reverse (Texto)*
-┃ _Escribir al reves_
 ┠⊷️ *${prefix}Itsme*
 ┃ _Tu perfil_
 ┠⊷️ *${prefix}Tagme*
@@ -669,24 +655,10 @@ Hola *${pushname}*
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 ANIME 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Kusonime (Nombre)*
-┃ _Información de animes_
-┠⊷️ *${prefix}Neonime (Nombre)*
-┃ _Información de neoanimes_
-┠⊷️ *${prefix}Charnime (Nombre)*
-┃ _Personajes de anime_
-┠⊷️ *${prefix}Wait*
-┃ _Busca información de una imagen de anime_
-┠⊷️ *${prefix}Anime*
-┃ _Imagen aleatoria de anime_
 ┠⊷️ *${prefix}Loli*
 ┃ _Imagen aleatoria de loli_
 ┠⊷️ *${prefix}Neko*
 ┃ _Imagen aleatoria de neko_
-┗━━━━━━━━━━━━━━━━━━━━
-*〘 Porcentaje 〙*
-┏━━━━━━━━━━━━━━━━━━━━
-┠⊷ *${prefix}Rate (Texto)*
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 TOOLS 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
@@ -695,61 +667,18 @@ Hola *${pushname}*
 ┠⊷️ *${prefix}Play (Nombre)*
 ┃ _Canciones_
 ┠⊷️ *${prefix}Tts (Texto)*
-┃ _Texto a sonido_
-┠⊷️ *${prefix}Timer (Hora)*
 ┠⊷️ *${prefix}Wame*
 ┃ _Link de wa.me_
-┠⊷️ *${prefix}Ocr*
-┃ _Texto en imagen_
-┠⊷️ *${prefix}Wait*
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 IMAGENES 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Cogan*
-┃ _Foto aleatoria de un hombre_
-┠⊷️ *${prefix}Cecan*
-┃ _Foto aleatoria de una mujer_
-┠⊷️ *${prefix}Wp*
-┃ _Imagen aleatoria_
 ┠⊷️ *${prefix}Img (texto)*
 ┃ _Imagen_
-┠⊷️ *${prefix}Google (Texto)*
-┃ _Buscar cosas en google_
-┗━━━━━━━━━━━━━━━━━━━━
-*〘 Codigos 〙*
-┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Kodebahasa*
-┃ _Codigo de idioma_
-┠⊷️ *${prefix}Kodenegara*
-┃ _Codigo de país_
-┗━━━━━━━━━━━━━━━━━━━━
-*〘 OTRO 〙*
-┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Lirik (Nombre)*
-┃ _Letra de canciones_
-┠⊷️ *${prefix}Map (Area)*
-┃ _Un mapa_
-┠⊷️ *${prefix}Gplaystore*
-┃ _Busqueda en playstore_
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 DESCARGAS 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Ytmp3 (Link)*
-┃ _Descargar audios de YT, es mejor con play_
 ┠⊷️ *${prefix}Ytmp4 (Link)*
 ┃ _Descargar video de YT_
-┠⊷️ *${prefix}Fb (Link)*
-┃ _Descargar de FB_
-┠⊷️ *${prefix}Ig (Link)*
-┃ _Descargar de IG_
-┠⊷️ *${prefix}Scdl (Link)*
-┃ _Descargador de Soundcloud_
-┠⊷️ *${prefix}Tik (Link)*
-┃ _Descargar Tiktok_
-┠⊷️ *${prefix}Pin (Link)*
-┃ _Descargar Pinterest_
-┠⊷️ *${prefix}Joox (Canción)
-┃ _Descargar canciones_
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 Dueño 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
@@ -770,7 +699,7 @@ contextInfo: {
 }
   }
   Lxa.sendMessage(from, Menu, text, {
-quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "♞☞  𝕊𝓐тคŇ  🐲🏆", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABERERESERMVFRMaHBkcGiYjICAjJjoqLSotKjpYN0A3N0A3WE5fTUhNX06MbmJiboyiiIGIosWwsMX46/j///8BERERERIRExUVExocGRwaJiMgICMmOiotKi0qOlg3QDc3QDdYTl9NSE1fToxuYmJujKKIgYiixbCwxfjr+P/////CABEIADoAUQMBIgACEQEDEQH/xAAsAAEAAwEBAQAAAAAAAAAAAAAAAgMFBAYBAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAADwYAAAAAEo2EoeggYctbsPMX7XIZPycABZWNvLoHTfnjTo4x0c4AAAAAAAf//EAC0QAAMAAgEDAwIDCQAAAAAAAAECAwQRAAUSMRMhImGSFCCRJEBBQlBRUmOx/9oACAEBAAE/AP3dFLsqjW2IA2QB+p5PHvUoJxdy7FU7VJ7iPcgcM6AMxRtKwVjrwT4B4Y2Hdub/ABRXb28K2tE/Q74+Nead7yZV+BHcNbDglSPodcKsp0wIOgf14mLeisyKCFAJII/ipf8A4vCrKFJBAYbH1Hj8kXWdFdpJUD+RywB+0g8z8N4dXtiQgHxlo5STuyy2qbbmXTHxhjt2SZ6I4yISuzy/17IZudWImmKoT0bvH9pkHc+DpAQxbma/bTqUE2hwEAlUO/eQjiXMARsnTUvAX/EZxgS7vtUQIAF03OjXcdSxJnbLS0kPzddbPbsFCOUFQQKBge1dBv8AEjY/JJ1m4ZpJQDfwbYB+0g8yOvXybpZ8eHm21AfTesgRuXrOpUpjzj9ELnf3luWyTe+Tek0L2ZmPkBSx3teX6lW4uTKS0v7Wou9v7huY/VDj+l24sG9K5vLff8GOv7NzEy/wl43WEneWivd3a7g2w3sRzKyGybeqyKnwRAq70AihB5/on//EABQRAQAAAAAAAAAAAAAAAAAAAED/2gAIAQIBAT8AR//EABQRAQAAAAAAAAAAAAAAAAAAAED/2gAIAQMBAT8AR//Z", "scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw==" } } } })
+quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "𝐁𝐨𝐭 𝐋𝐨𝐨𝐧𝐢𝐭𝐚", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABERERESERMVFRMaHBkcGiYjICAjJjoqLSotKjpYN0A3N0A3WE5fTUhNX06MbmJiboyiiIGIosWwsMX46/j///8BERERERIRExUVExocGRwaJiMgICMmOiotKi0qOlg3QDc3QDdYTl9NSE1fToxuYmJujKKIgYiixbCwxfjr+P/////CABEIADoAUQMBIgACEQEDEQH/xAAsAAEAAwEBAQAAAAAAAAAAAAAAAgMFBAYBAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAADwYAAAAAEo2EoeggYctbsPMX7XIZPycABZWNvLoHTfnjTo4x0c4AAAAAAAf//EAC0QAAMAAgEDAwIDCQAAAAAAAAECAwQRAAUSMRMhImGSFCCRJEBBQlBRUmOx/9oACAEBAAE/AP3dFLsqjW2IA2QB+p5PHvUoJxdy7FU7VJ7iPcgcM6AMxRtKwVjrwT4B4Y2Hdub/ABRXb28K2tE/Q74+Nead7yZV+BHcNbDglSPodcKsp0wIOgf14mLeisyKCFAJII/ipf8A4vCrKFJBAYbH1Hj8kXWdFdpJUD+RywB+0g8z8N4dXtiQgHxlo5STuyy2qbbmXTHxhjt2SZ6I4yISuzy/17IZudWImmKoT0bvH9pkHc+DpAQxbma/bTqUE2hwEAlUO/eQjiXMARsnTUvAX/EZxgS7vtUQIAF03OjXcdSxJnbLS0kPzddbPbsFCOUFQQKBge1dBv8AEjY/JJ1m4ZpJQDfwbYB+0g8yOvXybpZ8eHm21AfTesgRuXrOpUpjzj9ELnf3luWyTe+Tek0L2ZmPkBSx3teX6lW4uTKS0v7Wou9v7huY/VDj+l24sG9K5vLff8GOv7NzEy/wl43WEneWivd3a7g2w3sRzKyGybeqyKnwRAq70AihB5/on//EABQRAQAAAAAAAAAAAAAAAAAAAED/2gAIAQIBAT8AR//EABQRAQAAAAAAAAAAAAAAAAAAAED/2gAIAQMBAT8AR//Z", "scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw==" } } } })
   break
 
 //--Cek limit user
@@ -853,7 +782,7 @@ case 'ceksaldo':
   uptime = process.uptime()
   teks = `*‣ Nombre del bot* : ${me.name}
   ‣ *Número del bot* : @${me.jid.split('@')[0]}
-  ‣ *Dueño* : Satan
+  ‣ *Dueño* : 𝐁𝐨𝐭 𝐋𝐨𝐨𝐧𝐢𝐭𝐚
   ‣ *Prefijo* : ${prefix}
   ‣ *Usuarios bloqueados* : ${blocked.length}
   ‣ *Tiempo activo* : ${kyun(uptime)}
@@ -1024,7 +953,7 @@ n = JSON.parse(JSON.stringify(data));
 nimek = n[Math.floor(Math.random() * n.length)];
 pok = await getBuffer(nimek)
 Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+  quoted: mek, caption: `𝐁𝐨𝐭 𝐋𝐨𝐨𝐧𝐢𝐭𝐚`
 })
 
 } catch {
@@ -1048,7 +977,7 @@ n = JSON.parse(JSON.stringify(data));
 nimek = n[Math.floor(Math.random() * n.length)];
 pok = await getBuffer(nimek)
 Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+  quoted: mek, caption: `𝐁𝐨𝐭 𝐋𝐨𝐨𝐧𝐢𝐭𝐚`
 })
 
 } catch {
@@ -1102,7 +1031,7 @@ n = JSON.parse(JSON.stringify(data));
 nimek = n[Math.floor(Math.random() * n.length)];
 pok = await getBuffer(nimek)
 Lxa.sendMessage(from, pok, image, {
-  quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+  quoted: mek, caption: `𝐁𝐨𝐭 𝐋𝐨𝐨𝐧𝐢𝐭𝐚`
 })
 
 break
@@ -1127,7 +1056,7 @@ method: 'get'
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+quoted: mek, caption: `𝐁𝐨𝐭 𝐋𝐨𝐨𝐧𝐢𝐭𝐚`
   })
   
   } catch {
@@ -1157,7 +1086,7 @@ method: 'get'
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+quoted: mek, caption: `𝐁𝐨𝐭 𝐋𝐨𝐨𝐧𝐢𝐭𝐚`
   })
   
   } catch {
@@ -1183,7 +1112,7 @@ method: 'get'
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+quoted: mek, caption: `𝐁𝐨𝐭 𝐋𝐨𝐨𝐧𝐢𝐭𝐚`
   })
   
   } catch {
@@ -1209,7 +1138,7 @@ method: 'get'
   nimek = n[Math.floor(Math.random() * n.length)];
   pok = await getBuffer(nimek)
   Lxa.sendMessage(from, pok, image, {
-quoted: mek, caption: `♞☞  𝕊𝓐тคŇ  🐲🏆`
+quoted: mek, caption: `𝐁𝐨𝐭 𝐋𝐨𝐨𝐧𝐢𝐭𝐚`
   })
   
   } catch {
